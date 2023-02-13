@@ -28,7 +28,7 @@ class CashRegister
     name_array
 end
 
-def void_last-transaction
+def void_last_transaction
     @items.delete(-1)
     self.total -=(@items[-1][:price]).to_f*(@items[-i][:quantity]).to_f
     @total
